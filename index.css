@@ -13,26 +13,20 @@ footer{
     background: aquamarine;
 align-content: space-between;
 border: solid 1px #aebebe;
-position: absolute;
+position:static;
 bottom: -78px;
 right: 50%;
 }   
-.areat {
-    position: absolute;
-    top: 63px;
-    border: solid 1px;
-    width: 100%;
-    left: 0px;
-    height: 100%;
-    background: beige;
-}
+
 a {
-    align-content: initial;
-    border: solid 1px #aebebe;
-    position: absolute;
-    bottom: -78px;
-    left: 80%;
+    
+        bottom: 1%;
+        width: max-content;
+        right: 1%;
+        position: static;
+
 }
+
 .btn-group, .btn-group-vertical {
     position: relative;
     display: -ms-inline-flexbox;
